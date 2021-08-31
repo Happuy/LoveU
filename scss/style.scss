@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'media';
+@import 'global';
+
+.header{
+    &__info{
+        &-title{
+            color:white;
+            text-align: center;
+
+        }
+    }
+}
+
+.info{
+	&__text{
+		padding-top: 20px;
+		&-item{
+			font-size: 20px;
+            color: white;
+		}
+	}
+}
+
+.galery{
+    &__photo{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.footer{
+    &__game{
+        &-block{
+            display: flex;
+            justify-content: space-around;
+            
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        &-item{
+            font-size: 30px;
+        }
+        &-link{
+            color: white;
+        }
+    }
+    &__info{
+        padding-top: 50px;
+        &-text{
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
